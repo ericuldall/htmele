@@ -36,8 +36,8 @@ console.log(mydiv); //<div style="color: #fff; width: 200px;"><a href="http://go
 
 ### More Info
 
-HTMEle with autmatically determine whether or not to use a full html block or short tag based on the tag string you pass to it.
-If you want to see a list of which tags are treated as short you can see an array by calling the following method:
+HTMEle will autmatically determine whether or not to use a full html block or short tag based on the tag string you pass to it.
+If you want to see a list of which tags are treated as "short" you can see an array by calling the following method:
 
 ```
 console.log(htmele.getShortTags());
