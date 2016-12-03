@@ -13,7 +13,6 @@ var element = htmele.create(tag <string>[, content <string|array>, attributes <o
 
 ### Example
 
-**
 ```
 var mydiv = htmele.create(
 	'div',
