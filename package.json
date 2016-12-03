@@ -8,9 +8,6 @@
   },
   "author": "Eric Uldall",
   "license": "ISC",
-  "dependencies": {
-    "bluebird": "^3.4.6"
-  },
   "devDependencies": {},
   "repository": {
     "type": "git",
