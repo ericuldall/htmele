@@ -1,6 +1,6 @@
 {
   "name": "htmele",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Programatically create html elements",
   "main": "htmele.js",
   "scripts": {
