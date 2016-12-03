@@ -18,7 +18,9 @@ class Htmele {
 		for(var key in attrs){
 			attrStr += key + '="' + attrs[key] + '" ';
 		}
-		return attrStr.trim();
+		attrStr = attrStr.trim();
+
+		return attrStr.length ? " " + attrStr : "";
 	}
 
 	static stringifyContent(content){
@@ -35,11 +37,11 @@ class Htmele {
 	}
 
 	static createLong(element, content, attrs){
-		return '<' + element + ' ' + this.stringifyAttrs(attrs) + '>' + this.stringifyContent(content) + '</' + element + '>';
+		return '<' + element + this.stringifyAttrs(attrs) + '>' + this.stringifyContent(content) + '</' + element + '>';
 	}
 
 	static createShort(element, attrs){
-		return '<' + element + ' ' + this.stringifyAttrs(attrs) + '>';
+		return '<' + element + this.stringifyAttrs(attrs) + '>';
 	}
 
 }
